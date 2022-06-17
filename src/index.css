@@ -1,0 +1,64 @@
+body{
+    background-color: blue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+h1{
+     color: white;
+     text-align: center;
+}
+
+
+.React{
+     padding-top: 20px;
+     width: 400px;
+}
+
+.incompleted{
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+button{
+    border: 0;
+    cursor:pointer;
+    font-size: 1.0rem;
+    outline :0;
+}
+input{
+    background: white;
+    padding: 7px 10px;
+    font-size: 1rem;
+    color:black;
+    outline:0;
+    border:0;
+    flex: 1;
+}
+form{
+    display: flex;
+    padding-top:10px;
+
+}
+
+form button {
+    color: black;
+    background: white;
+    outline: 0;
+    padding:0 15px;
+}
+.newreact{
+    background: white;
+    padding:3px 10px;
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
